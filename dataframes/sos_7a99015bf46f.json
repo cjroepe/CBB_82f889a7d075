@@ -1,0 +1,41 @@
+{
+    "name": "sos_7a99015bf46f",
+    "displayName": "Left Join",
+    "type": "LEFT_JOIN",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "sos_047fea95af90"
+        },
+        {
+            "type": "dataframe",
+            "id": "averages"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "sos"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "left_join(averages, by = c(\"DATE\" = \"DATE\", \"TEAM\" = \"TEAM\"))",
+        "command": {
+            "name": "join",
+            "joinType": "Left Join",
+            "columnPairs": [
+                {
+                    "currentColumn": "DATE",
+                    "targetColumn": "DATE"
+                },
+                {
+                    "currentColumn": "TEAM",
+                    "targetColumn": "TEAM"
+                }
+            ],
+            "targetDataFrame": "averages"
+        }
+    },
+    "timestamp": "2017-01-27T20:56:13.389Z"
+}
