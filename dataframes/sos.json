@@ -1,0 +1,15 @@
+{
+    "name": "sos",
+    "displayName": "sos",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "sos_Source1"
+        }
+    ],
+    "props": {},
+    "columns": [],
+    "rdata": {},
+    "timestamp": "2017-01-27T20:54:15.659Z",
+    "filename": "sos.json"
+}
