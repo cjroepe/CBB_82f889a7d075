@@ -5,7 +5,7 @@
     "dependencies": [
         {
             "type": "dataframe",
-            "id": "sos_cb18c80168da"
+            "id": "sos_004b16ca92e4"
         }
     ],
     "belongsTo": {
@@ -28,5 +28,6 @@
             ]
         }
     },
-    "timestamp": "2017-01-28T14:59:47.326Z"
+    "timestamp": "2017-01-28T14:59:47.326Z",
+    "filename": "sos_d730696641f9.json"
 }
