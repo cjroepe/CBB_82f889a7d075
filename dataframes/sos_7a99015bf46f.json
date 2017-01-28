@@ -6,10 +6,6 @@
         {
             "type": "dataframe",
             "id": "sos_047fea95af90"
-        },
-        {
-            "type": "dataframe",
-            "id": "averages"
         }
     ],
     "belongsTo": {
@@ -37,5 +33,6 @@
             "targetDataFrame": "averages"
         }
     },
-    "timestamp": "2017-01-27T20:56:13.389Z"
+    "timestamp": "2017-01-27T20:56:13.389Z",
+    "filename": "sos_7a99015bf46f.json"
 }
