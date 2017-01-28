@@ -1,12 +1,7 @@
 {
     "name": "sos",
     "displayName": "sos",
-    "dependencies": [
-        {
-            "type": "dataframe",
-            "id": "sos_7a99015bf46f"
-        }
-    ],
+    "dependencies": [],
     "props": {},
     "columns": [],
     "rdata": {},
