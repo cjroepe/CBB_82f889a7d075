@@ -1,0 +1,32 @@
+{
+    "name": "sos_004b16ca92e4",
+    "displayName": "Select",
+    "type": "SELECT",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "sos_Source1"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "sos"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "select(-X1)",
+        "command": {
+            "name": "select",
+            "columnSelectors": [
+                {
+                    "includeOrExclude": "Exclude",
+                    "columnSelectorType": "column",
+                    "name": "X1"
+                }
+            ]
+        }
+    },
+    "timestamp": "2017-01-28T14:58:25.478Z"
+}
