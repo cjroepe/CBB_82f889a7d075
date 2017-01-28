@@ -2,12 +2,7 @@
     "name": "sos_047fea95af90",
     "displayName": "Select",
     "type": "SELECT",
-    "dependencies": [
-        {
-            "type": "dataframe",
-            "id": "sos_Source1"
-        }
-    ],
+    "dependencies": [],
     "belongsTo": {
         "type": "dataframe",
         "id": "sos"
@@ -28,5 +23,6 @@
             ]
         }
     },
-    "timestamp": "2017-01-27T20:55:37.301Z"
+    "timestamp": "2017-01-27T20:55:37.301Z",
+    "filename": "sos_047fea95af90.json"
 }
