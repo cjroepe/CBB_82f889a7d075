@@ -2,12 +2,7 @@
     "name": "sos_7a99015bf46f",
     "displayName": "Left Join",
     "type": "LEFT_JOIN",
-    "dependencies": [
-        {
-            "type": "dataframe",
-            "id": "sos_047fea95af90"
-        }
-    ],
+    "dependencies": [],
     "belongsTo": {
         "type": "dataframe",
         "id": "sos"
