@@ -1,12 +1,7 @@
 {
     "name": "ave_sos",
     "displayName": "ave_sos",
-    "dependencies": [
-        {
-            "type": "dataframe",
-            "id": "ave_sos_Source1"
-        }
-    ],
+    "dependencies": [],
     "props": {},
     "columns": [],
     "rdata": {},
