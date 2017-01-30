@@ -2,12 +2,7 @@
     "name": "sos_d730696641f9",
     "displayName": "Select",
     "type": "SELECT",
-    "dependencies": [
-        {
-            "type": "dataframe",
-            "id": "sos_004b16ca92e4"
-        }
-    ],
+    "dependencies": [],
     "belongsTo": {
         "type": "dataframe",
         "id": "sos"
