@@ -1,12 +1,7 @@
 {
     "name": "averages",
     "displayName": "averages",
-    "dependencies": [
-        {
-            "type": "dataframe",
-            "id": "averages_Source1"
-        }
-    ],
+    "dependencies": [],
     "props": {},
     "columns": [],
     "rdata": {},
