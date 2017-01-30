@@ -1,0 +1,32 @@
+{
+    "name": "ave_sos_3afe94993ed4",
+    "displayName": "Mutate",
+    "type": "MUTATE",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "ave_sos_Source1"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "ave_sos"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "mutate(error_ptsx = ex_pts.x - PTS)",
+        "command": {
+            "name": "mutate",
+            "mutations": [
+                {
+                    "columnSelectorType": "newColumn",
+                    "newColumnName": "error_ptsx",
+                    "expression": "ex_pts.x - PTS"
+                }
+            ]
+        }
+    },
+    "timestamp": "2017-01-30T14:39:49.075Z"
+}
