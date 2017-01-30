@@ -1,0 +1,15 @@
+{
+    "name": "ave_sos",
+    "displayName": "ave_sos",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "ave_sos_Source1"
+        }
+    ],
+    "props": {},
+    "columns": [],
+    "rdata": {},
+    "timestamp": "2017-01-30T14:30:19.812Z",
+    "filename": "ave_sos.json"
+}
